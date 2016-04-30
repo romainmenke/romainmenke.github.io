@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+	 v2.0 | 20110126
+	 License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+html {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+body {
+ width:100%;
+ height:100%;
+ background-color: #FFF;
+
+}
+
+@font-face{
+font-family:'miller';
+src: url('../refresh/fonts/MillerDisplay-RomanSC.eot');
+src: url('../refresh/fonts/MillerDisplay-RomanSC.otf') format('opentype');
+src: url('../refresh/fonts/MillerDisplay-RomanSC.ttf') format('truetype');
+src: url('../refresh/fonts/MillerDisplay-RomanSC.svg') format('svg');
+}
+
+
+@font-face{
+font-family:'trade';
+src: url('/fonts/TradeGothicLTStd-Light.eot') format('embedded-opentype');
+src: url('/fonts/TradeGothicLTStd-Light.otf') format('opentype');
+src: url('/fonts/TradeGothicLTStd-Light.ttf') format('truetype');
+src: url('/fonts/TradeGothicLTStd-Light.woff') format('woff');
+}
+
+
+
+.class2 a:link {
+	text-decoration:none;
+	color: #000;
+}
+.class2 a:visited {
+	text-decoration:none;
+	color: #000;
+}
+.class2 a:hover {
+	text-decoration:none;
+	color: #000;
+}
+.class2 a:active {
+	text-decoration:none;
+	color: #000;
+}
+
+
+.class3 a:link {
+	text-decoration:none;
+	color: #000;
+}
+.class3 a:visited {
+	text-decoration:none;
+	color: #000;
+}
+.class3 a:hover {
+	text-decoration:none;
+	color: #000;
+}
+.class3 a:active {
+	text-decoration:none;
+	color: #000;
+}
+
+
+
+
+
+
+#portraits:hover {
+	opacity:1;
+
+}
+
+#commission:hover {
+	opacity:1;
+}
+
+#free-work:hover {
+	opacity:1;
+}
+
+#about:hover {
+	opacity:1;
+}
+
+#contact:hover {
+	opacity:1;
+}
+
+#blog-menu:hover {
+	opacity:1;
+}
+
+
+
+#portraits {
+	opacity:0.4;
+	transition:opacity 0.5s;
+	-moz-transition:opacity 0.5s; /* Firefox 4 */
+	-webkit-transition:opacity 0.5s; /* Safari and Chrome */
+	-o-transition:opacity 0.5s; /* Opera */
+}
+
+#commission {
+	opacity:0.4;
+	transition:opacity 0.5s;
+	-moz-transition:opacity 0.5s; /* Firefox 4 */
+	-webkit-transition:opacity 0.5s; /* Safari and Chrome */
+	-o-transition:opacity 0.5s; /* Opera */
+}
+
+#free-work {
+	opacity:0.4;
+	transition:opacity 0.5s;
+	-moz-transition:opacity 0.5s; /* Firefox 4 */
+	-webkit-transition:opacity 0.5s; /* Safari and Chrome */
+	-o-transition:opacity 0.5s; /* Opera */
+}
+
+#about {
+	opacity:0.4;
+	transition:opacity 0.5s;
+	-moz-transition:opacity 0.5s; /* Firefox 4 */
+	-webkit-transition:opacity 0.5s; /* Safari and Chrome */
+	-o-transition:opacity 0.5s; /* Opera */
+}
+
+#contact {
+	opacity:0.4;
+	transition:opacity 0.5s;
+	-moz-transition:opacity 0.5s; /* Firefox 4 */
+	-webkit-transition:opacity 0.5s; /* Safari and Chrome */
+	-o-transition:opacity 0.5s; /* Opera */
+}
+
+#blog-menu {
+	opacity:0.4;
+	transition:opacity 0.5s;
+	-moz-transition:opacity 0.5s; /* Firefox 4 */
+	-webkit-transition:opacity 0.5s; /* Safari and Chrome */
+	-o-transition:opacity 0.5s; /* Opera */
+}
+
+@media screen and (max-width: 4000px) {
+
+	#parent {
+		margin:1%;
+		padding:0;
+		padding:0;
+		width:98%;
+		height:96%;
+		margin-color:#000;
+	 	background-color: #FFF;
+		font-family:miller;
+		font-size:30px;
+		text-align:center;
+		overflow:hidden;
+	}
+
+	.left {
+
+	float: left;
+	width: 300px;
+	height: 340px;
+
+	}
+
+	.right {
+
+	float: right;
+	width: 300px;
+	height: 340px;
+
+	}
+
+	.leftTitle {
+
+	float: left;
+	width: 300px;
+	height: 20px;
+	margin-top:20px;
+	font-family:trade;
+	font-size:16px;
+	line-height:16px;
+	text-align:center;
+
+	}
+
+	.rightTitle {
+
+	float: right;
+	width: 300px;
+	height: 20px;
+	margin-top:20px;
+	font-family:trade;
+	font-size:16px;
+	line-height:16px;
+	text-align:center;
+
+	}
+
+	.circularOne {
+	float: left;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(/images/demorgen/romainmenke_mind_the_booksmall.jpg) no-repeat;
+	}
+	.circularTwo {
+	float: right;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(/scnx/iphonePreviewsmall.jpg) no-repeat;
+	}
+}
+
+
+
+#photography-box {
+	width:65%;
+	height:600px;
+	margin: 0 auto;
+	padding-top:3%;
+	font-family:trade;
+	font-size:35px;
+	color: #666;
+	text-align:center;
+	letter-spacing:1px;
+}
+
+
+#photography-menu2 {
+	width:100%;
+	height:340px;
+	padding-top:10%;
+	white-space:nowrap;
+	text-align: center;
+	font-family:trade;
+	font-size:50px;
+}
+
+.menu-item {
+	height:60px;
+	width: 900px;
+	margin: 0 auto;
+	font-size:45px;
+	text-align:center;
+	white-space:nowrap;
+	letter-spacing:2px;
+}

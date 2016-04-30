@@ -1,0 +1,383 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+	 v2.0 | 20110126
+	 License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+
+	text-align:center;
+	font-size:15px;
+	color:#000;
+	letter-spacing:2px;
+
+}
+
+
+
+html {
+	width:100%;
+	height:100%;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+ width:100%;
+ height:100%;
+ background-color: #FFF;
+ overflow-y:scroll;
+
+}
+
+
+#parent {
+	position:static;
+	width:915px;
+	margin:0 auto;
+	background-color:#FFF;
+
+	
+}
+
+#scroller {
+	position:static;
+	margin-top:50px;
+	width:915px;
+	background-color:#FFF;
+}
+
+.section {
+	-moz-box-shadow:0px 7px 4px -4px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow:0px 7px 4px -4px rgba(0, 0, 0, 0.3);
+	box-shadow:0px 7px 4px -4px rgba(0, 0, 0, 0.3);
+		overflow:hidden;
+		margin-bottom:50px;
+		background-color:#F8F8F8;
+}
+		
+
+#menu {
+	position:fixed;
+	width:915px;
+	height:50px;
+	top:0px;
+	background-color:#000;
+	z-index:9999;
+	-moz-box-shadow:0px 7px 5px -4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow:0px 7px 5px -4px rgba(0, 0, 0, 0.2);
+	box-shadow:0px 7px 5px -4px rgba(0, 0, 0, 0.2);
+	}
+	
+#menu-container {
+	float:left;
+	height:50px;
+	margin-left:85px;
+	width:750px;
+	background-color:#000;
+	font-size:18px;
+	text-align:center;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	
+}
+	
+.menu-item {
+	float:left;
+	height:20px;
+	margin:15px;
+	width:150px;
+	background-color:#000;
+	font-size:18px;
+	text-align:center;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	}
+	
+#logo-menu {
+	float:left;
+	height:40px;
+	margin:5px;
+	width:150px;
+	background-color:#000;
+	text-align:center;
+
+	}
+
+.title {
+	width:915px;
+	height:75px;
+	background-color:#000;
+	text-align:center;
+	line-height:75px;
+		overflow:hidden;
+	}
+	
+.title-padding {
+	padding-top:60px;
+	width:915px;
+	height:85px;
+	background-color:#FFF;
+	}
+	
+.title-text {
+	width:915px;
+	height:75px;
+	color:#FFF;
+	z-index:9;
+	font-family:"Lucida Sans Unicode", Lucida Grande, sans-serif;
+	font-size:18px;
+	text-align:center;
+	line-height:75px;
+	letter-spacing:2px;
+}
+
+.full-width-text {
+	width:915px;
+	height:40px;
+	color:#666;
+	z-index:9;
+	font-family:"Lucida Sans Unicode", Lucida Grande, sans-serif;
+	font-size:15px;
+	text-align:center;
+	line-height:40px;
+	letter-spacing:2px;
+	margin-top:10px;
+}
+
+.full-width-text-privacy {
+	width:800px;
+	height:30px;
+	margin-left:67px;
+	color:#666;
+	z-index:9;
+	font-family:"Lucida Sans Unicode", Lucida Grande, sans-serif;
+	font-size:15px;
+	text-align:center;
+	line-height:30px;
+	letter-spacing:2px;
+}
+
+.content {
+	position:static;
+	width:100%;
+	height:650px;
+	padding-top:20px;
+	color:#FFF;
+}
+
+.privacy-content {
+	position:static;
+	width:100%;
+	height:240px;
+	padding-top:20px;
+	color:#FFF;
+}
+
+.contact-content {
+	position:static;
+	width:100%;
+	height:240px;
+	padding-bottom:450px;
+	padding-top:20px;
+	color:#FFF;
+}
+
+.content-about {
+	position:static;
+	width:100%;
+	height:580px;
+	padding-top:20px;
+	color:#FFF;
+}
+
+#content-index {
+	position:static;
+	width:100%;
+	height:720px;
+	padding-top:50px;
+	color:#FFF;
+}
+
+.content-threecolumns {
+	width:260px;
+	height:560px;
+	margin:20px;
+	float:left;
+	font-size:13px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color:#666;
+	line-height:20px;
+	overflow:hidden;
+}
+
+.img-threecolumns {
+	width:260px;
+	height:260px;
+	color:#F8F8F8;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.img-threecolumns-b {
+	width:260px;
+	height:390px;
+	color:#F8F8F8;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+	
+.title-threecolumns {
+	width:260px;
+	height:30px;
+	margin-top:-30px;
+	color:#C0D870;
+	background-color:#F8F8F8;
+	opacity:0.8;
+	z-index:9;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:17px;
+	text-align:center;
+	line-height:30px;
+	letter-spacing:2px;
+}
+
+	
+.content-twocolumns {
+	width:400px;
+	height:500px;
+	margin:20px;
+	float:left;
+	font-size:13px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color:#666;
+	letter-spacing:1px;
+	line-height:20px;
+	overflow:hidden;
+}
+	
+.title-twocolumns {
+	position:static;
+	width:300px;
+	height:20px;
+	margin:20px;
+	float:left;
+	font-size:15px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color:#C0D870;
+	text-align:left;
+}
+
+.img-fullpage {
+	position:static;
+	width:915px;
+	height:600px;
+	margin-top:0px;
+	color:#FFF;
+	overflow:hidden;
+}
+	
+#footer {
+	position:fixed;
+	width:100%;
+	bottom:10px;
+	text-align:center;
+	font-size:10px;
+	opacity:0.5;
+}
+
+.img {
+	width:40%;
+	height:90%;
+	border: solid 1px #000;
+	display: inline-block;
+	white-space: normal;
+}
+
+.txt {
+	width:55%;
+	height:90%;
+	display: inline-block;
+	white-space: normal;
+}
+
+.class1 a:link {
+	text-decoration:none;
+	font-family:"Lucida Sans Unicode", Lucida Grande, sans-serif;
+	color: #FFF;
+}
+.class1 a:visited {
+	text-decoration:none;
+	font-family:"Lucida Sans Unicode", Lucida Grande, sans-serif;
+	color: #FFF;
+}
+.class1 a:hover {
+	color: #666;
+	font-family:"Lucida Sans Unicode", Lucida Grande, sans-serif;
+	
+}
+.class1 a:active {
+	text-decoration:none;
+	font-family:"Lucida Sans Unicode", Lucida Grande, sans-serif;
+	color: #FFF;
+}
+
+.content-twocolumns a:link {
+	text-decoration:none;
+	color: #666;
+}
+.content-twocolumns a:visited {
+	text-decoration:none;
+	color: #666;
+}
+.content-twocolumns a:hover {
+	text-decoration:underline;
+	color: #666;
+	
+}
+.content-twocolumns a:active {
+	text-decoration:none;
+	color: #666;
+}
