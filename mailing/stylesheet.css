@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+ height:100%;
+ width:100%;
+
+}
+
+.class1 a:link {
+	text-decoration:none;
+	color: #666;
+}
+.class1 a:visited {
+	text-decoration:none;
+	color: #666;
+}
+.class1 a:hover {
+	text-decoration:none;
+	color: #000;
+}
+.class1 a:active {
+	text-decoration:none;
+	color: #000;
+}
+
+.image {
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+
+}
+
+.main {
+	width:600px;
+	height:300px;
+	position:relative;
+	margin:0 auto;
+	margin-top:75px;
+	white-space:nowrap;	
+	background-color:#FFFFFF;
+	opacity:0.8;
+	-moz-border-radius:4px 4px 4px 4px;
+	-webkit-border-radius:4px 4px 4px 4px;
+	border-radius:4px 4px 4px 4px;
+	
+	-moz-box-shadow:0 0 4px rgba(0,0,0,0.6);
+	-webkit-box-shadow:0 0 4px rgba(0,0,0,0.6);
+	box-shadow:0 0 4px rgba(0,0,0,0.6);
+}
+
+.top {
+	width:550px;
+	height:25px;
+	padding:25px;
+	white-space:nowrap;
+	color:#666;
+}
+.name {
+	float:left;
+	font-size:15px;
+	display: inline-block;
+
+}
+
+.client {
+	float:right;
+	font-size:15px;
+	display: inline-block;
+
+	}
+
+.basic {
+	width:550px;
+	height:150px;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:25px;
+	white-space:nowrap;
+	font-size:20px;
+	text-align:center;
+}
+	
+.date {
+	float:right;
+	display:inline-block;
+	
+}
+
+.location {
+	float:left;
+	display:inline-block;
+}
+
+.general {
+	width:650px;
+	height:20px;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:10px;
+	white-space:nowrap;
+	font-size:13px;
+	
+}
+
+.parking {
+		float:left;
+		display:inline-block;
+}
+
+.weather {
+	float:right;
+	display:inline-block;
+}
+
+.call-time {
+	width:650px;
+	height:150px;
+	padding-left:25px;
+	padding-right:25px;
+	font-size:12px;
+	padding-top:10px;
+	
+	
+}
+
+.person {
+	display:inline-block;
+	width:150px;
+	height:150px;	
+}
+
+.function {
+	display:inline-block;
+	width:150px;
+	height:150px;
+}
+
+.time {
+	display:inline-block;
+	width:50px;
+	height:150px;
+}
+
+.cell {
+	display:inline-block;
+	width:100px;
+	height:150px;
+}
+
+.email {
+	display:inline-block;
+	width:150px;
+	height:150px;
+}
+
+.mood {
+	width:500px;
+	height:500px;
+	left:50%;
+	margin-left:-250px;
+	opacity:1;
+	position:absolute;
+	top:400px;
+}
+
+#gallery {
+	opacity:1;	
+}
+
+.map {
+	width:500px;
+	height:500px;
+	left:50%;
+	margin-left:-250px;
+	opacity:1;
+	position:absolute;
+	top:920px;
+}	

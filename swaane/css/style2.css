@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+	html,body{
+	    height:100%;    
+	    margin:0;
+	    padding:0;
+	    border:0;
+		background-color: #FFF;
+		background-size: 100% 100%;
+		font-family: "Courier", sans-serif;
+		color:#000;
+	}
+	
+
+	
+	
+	p{
+		font-family: "Courier", sans-serif;
+		white-space:normal;
+	}
+	
+	h1{
+		font-family: "Courier", sans-serif;
+		white-space:normal;
+	}
+	
+	#parent {
+		width:80%;
+		height:80%;
+		margin-left:15%;
+		margin-right:15%;
+		margin-top:10%;
+		margin-bottom:25%;
+		white-space:nowrap;
+		list-style:none;
+	}
+	
+	#about {
+		width:20%;
+		height:20%;
+		position:fixed;
+		left:10%;
+		top:10%;
+		overflow:hidden;
+		transition:width 1s, height 1s;
+		-moz-transition:width 1s, height 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s; /* Opera */
+
+	}
+	
+
+	
+	#here {
+		width:25%;
+		height:20%;
+		position:fixed;
+		left:35%;
+		top:10%;
+		overflow:hidden;
+		transition:width 1s, height 1s;
+		-moz-transition:width 1s, height 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s; /* Opera */
+
+	}
+	
+
+	
+	#not-here {
+		width:25%;
+		height:20%;
+		position:fixed;
+		left:65%;
+		top:10%;
+		overflow:hidden;
+		transition:width 1s, height 1s;
+		-moz-transition:width 1s, height 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s; /* Opera */
+
+	}
+	
+
+	
+	#picture {
+		width:20%;
+		height:55%;
+		position:fixed;
+		left:10%;
+		top:35%;
+		overflow:hidden;
+		white-space:nowrap;
+		transition:width 1s, height 1s, top 1s;
+		-moz-transition:width 1s, height 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, top 1s; /* Opera */
+
+	}
+	
+
+	
+
+	
+	#handy-man {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:35%;
+		top:35%;
+		overflow:hidden;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+
+	
+	#summer {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:55%;
+		top:35%;
+		overflow:hidden;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+	
+
+	
+	#prices {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:75%;
+		top:35%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+
+	
+	#rent {
+		width:55%;
+		height:15%;
+		position:fixed;
+		left:35%;
+		top:55%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+
+	
+	#guide {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:35%;
+		top:75%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+
+	#food {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:55%;
+		top:75%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+
+	
+	#contact {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:75%;
+		top:75%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+	.textfloatleft {
+		display:inline-block;
+		position:static;
+		height:100%;
+		width:0%;
+		margin-left:5%;
+		vertical-align:top;
+			
+		
+	}
+	
+	.imgright {
+		display:inline-block;
+		position:static;
+		width:100%;
+		height:100%;
+
+		
+	}
+	
+	.wraptext {
+		white-space:normal;
+		height:100%;
+		width:100%;
+		vertical-align:top;
+	}
+
+
+	
+	
+	
+
+
+@media screen and (max-width: 4000px) {}

@@ -1,0 +1,435 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+
+
+#here:hover {
+	width:25%;
+	height:50%;
+	overflow:auto;
+}
+
+#here:hover ~ #handy-man {
+	top:65%;
+	height:5%;
+}
+
+#here:hover ~ #summer {
+	top:65%;
+	height:5%;
+}
+
+#here:hover ~ #prices {
+	top:65%;
+	height:5%;
+}
+
+#here:hover ~ #rent{
+	top:75%;
+	height:5%;
+}
+
+#here:hover ~ #guide{
+	top:85%;
+	height:5%;
+}
+
+#here:hover ~ #food{
+	top:85%;
+	height:5%;
+}
+
+#here:hover ~ #contact {
+	top:85%;
+	height:5%;
+}
+
+#not-here:hover {
+	width:25%;
+	height:50%;
+	overflow:auto;
+}
+
+#not-here:hover ~ #handy-man {
+	top:65%;
+	height:5%;
+}
+
+#not-here:hover ~ #summer {
+	top:65%;
+	height:5%;
+}
+
+#not-here:hover ~ #prices {
+	top:65%;
+	height:5%;
+}
+
+#not-here:hover ~ #rent{
+	top:75%;
+	height:5%;
+}
+
+#not-here:hover ~ #guide{
+	top:85%;
+	height:5%;
+}
+
+#not-here:hover ~ #food{
+	top:85%;
+	height:5%;
+}
+
+#not-here:hover ~ #contact {
+	top:85%;
+	height:5%;
+}
+
+#handy-man:hover {
+	width:25%;
+	height:35%;
+	overflow:auto;
+}
+
+
+#handy-man:hover ~ #summer {
+	width:10%;
+	left:65%;
+}
+
+#handy-man:hover ~ #prices {
+	width:10%;
+	left:80%;
+}
+
+#handy-man:hover ~ #rent{
+	top:75%;
+	height:5%;
+}
+
+#handy-man:hover ~ #guide{
+	top:85%;
+	height:5%;
+}
+
+#handy-man:hover ~ #food{
+	top:85%;
+	height:5%;
+}
+
+#handy-man:hover ~ #contact {
+	top:85%;
+	height:5%;
+}
+
+
+#summer:hover {
+	width:25%;
+	height:35%;
+	left:50%;
+	overflow:auto;
+}
+
+
+#summer:hover ~ #handy-man {
+	width:10%;
+	left:35%;
+}
+
+
+
+#summer:hover ~ #prices {
+	width:10%;
+	left:80%;
+}
+
+#summer:hover ~ #rent{
+	top:75%;
+	height:5%;
+}
+
+#summer:hover ~ #guide{
+	top:85%;
+	height:5%;
+}
+
+#summer:hover ~ #food{
+	top:85%;
+	height:5%;
+}
+
+#summer:hover ~ #contact {
+	top:85%;
+	height:5%;
+}	
+	
+	html,body{
+	    height:100%;    
+	    margin:0;
+	    padding:0;
+	    border:0;
+		background-color: #FFF;
+		background-size: 100% 100%;
+		font-family: "Courier", sans-serif;
+		color:#000;
+	}
+	
+	p{
+		font-family: "Courier", sans-serif;
+		white-space:normal;
+	}
+	
+	h1{
+		font-family: "Courier", sans-serif;
+		white-space:normal;
+	}
+	
+	#parent {
+		width:80%;
+		height:80%;
+		margin-left:15%;
+		margin-right:15%;
+		margin-top:10%;
+		margin-bottom:25%;
+		white-space:nowrap;
+		list-style:none;
+	}
+	
+	#about {
+		width:20%;
+		height:20%;
+		position:fixed;
+		left:10%;
+		top:10%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s;
+		-moz-transition:width 1s, height 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s; /* Opera */
+
+	}
+	
+
+	
+	#here {
+		width:25%;
+		height:20%;
+		position:fixed;
+		left:35%;
+		top:10%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s;
+		-moz-transition:width 1s, height 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s; /* Opera */
+
+	}
+	
+
+	
+	#not-here {
+		width:25%;
+		height:20%;
+		position:fixed;
+		left:65%;
+		top:10%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s;
+		-moz-transition:width 1s, height 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s; /* Opera */
+
+	}
+	
+
+	
+	#picture {
+		width:20%;
+		height:55%;
+		position:fixed;
+		left:10%;
+		top:35%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, top 1s;
+		-moz-transition:width 1s, height 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, top 1s; /* Opera */
+
+	}
+	
+	#picture:hover {
+		width:30%;
+		height:55%;
+	}
+	
+	#picture:hover ~ #handy-man {
+
+		left:45%;
+	}
+	
+
+	
+	#handy-man {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:35%;
+		top:35%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+
+	
+	#summer {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:55%;
+		top:35%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+	#summer-2 {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:55%;
+		top:35%;
+		overflow:hidden;
+		display:hidden;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+
+	
+	#prices {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:75%;
+		top:35%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+	#prices:hover {
+		width:30%;
+		height:40%;
+	}
+	
+	#rent {
+		width:55%;
+		height:15%;
+		position:fixed;
+		left:35%;
+		top:55%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+	#rent:hover {
+		width:55%;
+		height:40%;
+	}
+	
+	#guide {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:35%;
+		top:75%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+	#guide:hover {
+		width:30%;
+		height:40%;
+	}
+	
+	#food {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:55%;
+		top:75%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+	#food:hover {
+		width:30%;
+		height:40%;
+	}
+	
+	#contact {
+		width:15%;
+		height:15%;
+		position:fixed;
+		left:75%;
+		top:75%;
+		overflow:hidden;
+		background-color:#999;
+		transition:width 1s, height 1s, left 1s, top 1s;
+		-moz-transition:width 1s, height 1s, left 1s, top 1s; /* Firefox 4 */
+		-webkit-transition:width 1s, height 1s, left 1s, top 1s; /* Safari and Chrome */
+		-o-transition:width 1s, height 1s, left 1s, top 1s; /* Opera */
+
+	}
+	
+	#contact:hover {
+		width:30%;
+		height:40%;
+	}
+	
+
+	
+	
+	
+
+
+@media screen and (max-width: 4000px) {}
