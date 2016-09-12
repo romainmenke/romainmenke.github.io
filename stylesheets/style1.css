@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -15,8 +15,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -27,7 +27,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -71,10 +71,10 @@ src: url('../refresh/fonts/MillerDisplay-RomanSC.svg') format('svg');
 
 @font-face{
 font-family:'trade';
-src: url('http://www.romainmenke.com/fonts/TradeGothicLTStd-Light.eot') format('embedded-opentype');
-src: url('http://www.romainmenke.com/fonts/TradeGothicLTStd-Light.otf') format('opentype');
-src: url('http://www.romainmenke.com/fonts/TradeGothicLTStd-Light.ttf') format('truetype');
-src: url('http://www.romainmenke.com/fonts/TradeGothicLTStd-Light.woff') format('woff');
+src: url('/fonts/TradeGothicLTStd-Light.eot') format('embedded-opentype');
+src: url('/fonts/TradeGothicLTStd-Light.otf') format('opentype');
+src: url('/fonts/TradeGothicLTStd-Light.ttf') format('truetype');
+src: url('/fonts/TradeGothicLTStd-Light.woff') format('woff');
 }
 
 
@@ -203,31 +203,31 @@ src: url('http://www.romainmenke.com/fonts/TradeGothicLTStd-Light.woff') format(
 		width:98%;
 		height:96%;
 		margin-color:#000;
-	 	background-color: #FFF;	
+	 	background-color: #FFF;
 		font-family:miller;
 		font-size:30px;
 		text-align:center;
 		overflow:hidden;
 	}
-	
+
 	.left {
-	
+
 	float: left;
 	width: 300px;
 	height: 340px;
-	
+
 	}
-	
+
 	.right {
-	
+
 	float: right;
 	width: 300px;
 	height: 340px;
-	
+
 	}
-	
+
 	.leftTitle {
-	
+
 	float: left;
 	width: 300px;
 	height: 20px;
@@ -236,11 +236,11 @@ src: url('http://www.romainmenke.com/fonts/TradeGothicLTStd-Light.woff') format(
 	font-size:16px;
 	line-height:16px;
 	text-align:center;
-	
+
 	}
-	
+
 	.rightTitle {
-	
+
 	float: right;
 	width: 300px;
 	height: 20px;
@@ -249,9 +249,9 @@ src: url('http://www.romainmenke.com/fonts/TradeGothicLTStd-Light.woff') format(
 	font-size:16px;
 	line-height:16px;
 	text-align:center;
-	
+
 	}
-	
+
 	.circularOne {
 	float: left;
 	width: 300px;
@@ -259,8 +259,8 @@ src: url('http://www.romainmenke.com/fonts/TradeGothicLTStd-Light.woff') format(
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(http://romainmenke.com/images/demorgen/romainmenke_mind_the_booksmall.jpg) no-repeat;
-	}	
+	background: url(/images/demorgen/romainmenke_mind_the_booksmall.jpg) no-repeat;
+	}
 	.circularTwo {
 	float: right;
 	width: 300px;
@@ -268,17 +268,17 @@ src: url('http://www.romainmenke.com/fonts/TradeGothicLTStd-Light.woff') format(
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(http://romainmenke.com/scnx/iphonePreviewsmall.jpg) no-repeat;
-	}	
+	background: url(/scnx/iphonePreviewsmall.jpg) no-repeat;
+	}
 }
 
 
 
 #photography-box {
-	width:65%; 
+	width:65%;
 	height:600px;
 	margin: 0 auto;
-	padding-top:3%;	
+	padding-top:3%;
 	font-family:trade;
 	font-size:35px;
 	color: #666;
@@ -295,7 +295,7 @@ src: url('http://www.romainmenke.com/fonts/TradeGothicLTStd-Light.woff') format(
 	text-align: center;
 	font-family:trade;
 	font-size:50px;
-}  
+}
 
 .menu-item {
 	height:60px;
@@ -306,4 +306,3 @@ src: url('http://www.romainmenke.com/fonts/TradeGothicLTStd-Light.woff') format(
 	white-space:nowrap;
 	letter-spacing:2px;
 }
-
