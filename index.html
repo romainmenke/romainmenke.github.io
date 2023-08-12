@@ -2,54 +2,156 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Romain Menke Belgian Photographer</title>
+	<title>Romain Menke</title>
 
-<meta name="description" content="Photographer and App Builder" />
-<meta name="keywords" content="
-	romain,menke,romainmenke,portrait,advertising,portret,
-	belgisch,fotograaf,belgium,belgian,photographer" />
+	<style>
+		* {
+			font-family: sans-serif;
+		}
 
-<link href="/stylesheets/style1.css" rel="stylesheet" type="text/css" />
+		body {
+			max-width: 750px;
+			margin: 0 auto;
+			padding: 16px;
+		}
 
+		li {
+			padding: 0.25rem 0;
+		}
 
+		hr + h2 {
+			margin-block-start: 2.5rem;
+		}
 
-
+		hr + h3 {
+			margin-block-start: 2rem;
+		}
+	</style>
 </head>
+<body>
+	<h1>Romain Menke</h1>
+	<p>Fixes things, mostly with code</p>
 
-<body class="index">
+	<ul>
+		<li>
+			<a href="https://github.com/romainmenke">GitHub</a>
+		</li>
+		<li>
+			<a href="https://bsky.app/profile/romainmenke.bsky.social">Bluesky</a>
+		</li>
+		<li>
+			<a href="https://twitter.com/romainmenke">Twitter</a>
+		</li>
+		<li>
+			<a href="https://www.linkedin.com/in/romainmenke/">LinkedIn</a>
+		</li>
+	</ul>
 
-<div id="parent">
-	<div id="photography-box">
-		<p>ROMAIN MENKE</p>
-		<div id="photography-menu2" class="class2">
-			<div class="left">
-				<a href="/portraits.html">
-					<span style="display: block;" class="circularOne">
-					</span>
-				</a>
-				<div class="leftTitle">
-					<p>Photography</p>
-				</div>
-			</div>
-			<div class="right">
-				<a href="/scnx/index.html">
-					<span style="display: block;" class="circularTwo">
-					</span>
-				</a>
-				<div class="rightTitle">
-					<p>iOS</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+	<hr>
+	
+	<h2>Me</h2>
 
+	<p>
+		I am mostly interested in finding sources of friction and eliminating those.
+	</p>
 
+	<p>
+		I am fascinated by things that are slow, broken or unpredictable.<br>
+		This spans technical area's but also includes things like processes and workflows.
+	</p>
 
+	<hr>
 
+	<h2>Notable stuff</h2>
 
+	<h3>Polyfill.io</h3>
 
+	<p>
+		I redefined how polyfills are tested for <a href="https://polyfill.io/v3/">polyfill.io</a>.<br>
+		Originally polyfills were tested only in isolation, which led to various bugs when polyfills interacted.<br>
+		I also fixed most of the bugs that were surfaced by these new tests.
+	</p>
+
+	<p>
+		I contributed various polyfills to <a href="https://polyfill.io/v3/">polyfill.io</a> and still help to maintain it.
+	</p>
+
+	<h4>core-web</h4>
+
+	<p>
+		I maintain <a href="https://github.com/mrhenry/core-web">core-web</a>, which is the same set of polyfills from polyfill.io, but injected through babel.<br>
+	</p>
+
+	<hr>
+
+	<h3>Browser Compat</h3>
+
+	<p>
+		I am a regular contributor to <a href="https://github.com/mdn/browser-compat-data">MDN Browser Compat Data.</a>.<br>
+		I also created <a href="https://github.com/mrhenry/web-tests">web-tests</a> as a way to quickly gather historical support
+		data for various web features.
+	</p>
+
+	<p>
+		I am critical of MDN/Google Baseline and will keep advocating for something better and less biased.<br>
+		I maintain an alternative (<a href="https://github.com/romainmenke/mdn-support-context#mdn-support-context">mdn-support-context</a>) to illustrate that something better is technically possible.
+	</p>
+
+	<hr>
+
+	<h3>CSS</h3>
+
+	<h4>PostCSS Preset Env</h4>
+
+	<p>
+		I took over maintenance for <a href="https://preset-env.cssdb.org/">PostCSS Preset Env</a> (together with <a href="https://antonio.laguna.es">Antonio Laguna</a>).<br>
+		<ul>
+			<li>migrated everything to a monorepo</li>
+			<li>resolved all open issues and bug reports</li>
+			<li>massively increased test coverage</li>
+			<li>automated the release process</li>
+		</ul>
+	</p>
+
+	<h4>CSS Color</h4>
+
+	<p>
+		I created implementations for <a href="https://www.w3.org/TR/css-color-4/">css-color-4</a> and <a href="https://www.w3.org/TR/css-color-5/">css-color-5</a>.
+
+		<ul>
+			<li>worked together with the editors to improve these specifications</li>
+			<li>contributed various new tests and fixes to WPT</li>
+			<li>released these tools as PostCSS plugins</li>
+			<li>still advocating for browser vendors to implement these features correctly</li>
+		</ul>
+	</p>
+
+	<h4>CSS Tokenizer and Parsers</h4>
+
+	<p>
+		I created a correct CSS tokenizer and various parsers.
+
+		<ul>
+			<li><a href="https://github.com/csstools/postcss-plugins/tree/main/packages/css-tokenizer">CSS tokenizer</a></li>
+			<li><a href="https://github.com/romainmenke/css-tokenizer-tests">re-usable tests for CSS tokenizers</a></li>
+			<li><a href="https://github.com/csstools/postcss-plugins/tree/main/packages/css-parser-algorithms"> CSS parser algorithms</a></li>
+			<li><a href="https://github.com/csstools/postcss-plugins/tree/main/packages/media-query-list-parser">media query parser</a></li>
+		</ul>
+
+		These tools drive much of the new PostCSS plugins and are also used in projects like Stylelint.
+	</p>
+
+	<h4>Stylelint</h4>
+
+	<p>
+		I've contributed various core rules to Stylelint and improved general performance by ±30%.
+	</p>
+
+	<h2>Past stuff</h2>
+
+	<p>
+		I studied photography and worked for several years <a href="/photography/">taking portraits and creating advertisements</a>.
+	</p>
 </body>
 </html>

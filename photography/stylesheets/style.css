@@ -79,15 +79,6 @@ h2 {
 	padding-bottom:5px;
 }
 
-
-storytitle {
-	opacity:1;
-	font-size:25px;
-	padding-bottom:5px;
-}
-
-
-
 .class1 a:link {
 	text-decoration:none;
 	color: #666;
@@ -252,10 +243,10 @@ body.blog a.blog {
 
 @font-face{
 font-family:'trade';
-src: url('/fonts/TradeGothicLTStd-Light.eot') format('embedded-opentype');
-src: url('/fonts/TradeGothicLTStd-Light.otf') format('opentype');
-src: url('/fonts/TradeGothicLTStd-Light.ttf') format('truetype');
-src: url('/fonts/TradeGothicLTStd-Light.woff') format('woff');
+src: url('../fonts/TradeGothicLTStd-Light.eot') format('embedded-opentype');
+src: url('../fonts/TradeGothicLTStd-Light.otf') format('opentype');
+src: url('../fonts/TradeGothicLTStd-Light.ttf') format('truetype');
+src: url('../fonts/TradeGothicLTStd-Light.woff') format('woff');
 }
 
 
